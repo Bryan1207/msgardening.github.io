@@ -1,5 +1,5 @@
 footer {
-    background-color: #333333;
+    background-color: whitesmoke;
     padding-bottom: 40px;
 
 }
@@ -13,7 +13,7 @@ footer ul {
   padding-top: 20px;
 }
 .FooterSocialItems {
-    color: white;
+    color: black;
     float: left;
     position: relative;
     display: block;
