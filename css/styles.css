@@ -13,6 +13,12 @@
 	
 	
 }
+.rimage{
+	text-align: right;
+}
+.limage{
+	text-align: left;
+}
 
 #header {
 	position: fixed;
@@ -21,7 +27,7 @@
 	max-width: 980px;
 }
 
-@media (min-width:490px) and (max-width:767px) {
+@media (max-width: 767px) {
 #header {
 	position: inherit;
 	z-index: 10;
@@ -30,3 +36,13 @@
 }
 
  }
+
+ @media (max-width: 991px) {
+ 	 .limage {
+ 	 	text-align: center;
+ 	 }
+ 	 .rimage {
+ 	 	text-align: center;
+ 	 }
+ }
+
