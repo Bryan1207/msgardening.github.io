@@ -1,3 +1,19 @@
+/*Navbar styles*/
+#getaquote{
+	padding-top:1%;
+	margin-top: 5px;
+	padding-left: 68px;
+}
+.navbar{
+	max-width: 980px;
+}
+
+
+
+
+#colswap{
+	padding-right: 3%;
+}
 .container{
 	max-width: 980px;
 	padding-left: 0px;
@@ -23,33 +39,73 @@
 #header {
 	position: fixed;
 	z-index: 10;
-	background-color: rgba(9, 109, 22, 0.75);
-	max-width: 980px;
+	background-color: rgba(245, 245, 245, 0.73);
+	max-width: 970px;
 }
+.navbar-default {
+    background-color: rgba(245, 245, 245, 0.73);
+    border-color: #e7e7e7;
+}
+
+
+
 
 @media (max-width: 767px) {
-#header {
-	position: inherit;
-	z-index: 10;
-	background-color: rgba(9, 109, 22, 0.75);
-	max-width: 980px;
+.navbar-nav{
+	width: 300px;
+    margin-left: auto;
+    margin-right: auto;
 }
-
  }
 
+ @media (min-width:767px) and (max-width: 991px) {
+ 	.navbar{
+	max-width: 750px;
+}
+ 	#getaquote{
+	padding-top:0px;
+	margin-top: 5px;
+	padding-left: 0px;
+}
+.nav-links{
+	padding-left: 10%;
+}
+ }
  @media (max-width: 991px) {
- 	 .limage {
+  	 .limage {
  	 	text-align: center;
  	 }
  	 .rimage {
  	 	text-align: center;
  	 }
+ 	 #mi{
+	display: none;
+}
  }
  @media (max-width: 450px) {
 #colswap {
 	width: 58.33333333%;
+	padding-right: 0px;
 }
 #logo{
 	display: none;
+}
+.nav-links{
+	padding-left: none;
+}
+ }
+ @media (min-width: 992px) and (max-width: 1200px) {
+.navbar{
+	max-width: 970px;
+}
+.nav-links{
+	padding-left: 20%;
+}
+ }
+
+
+ @media (min-width: 1200px) {
+ .nav-links{
+	padding-left: 20%;
 }
  }
