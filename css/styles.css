@@ -1,3 +1,10 @@
+body{
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+
+
 /*Navbar styles*/
 #getaquote{
 	padding-top:1%;
