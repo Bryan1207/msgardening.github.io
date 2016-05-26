@@ -117,3 +117,14 @@ html, body{
 	padding-left: 20%;
 }
  }
+
+
+
+ .overlay {
+   background:transparent; 
+   position:relative; 
+   width:980px;
+   height:340px; /* your iframe height */
+   top:340px;  /* your iframe height */
+   margin-top:-340px;  /* your iframe height */
+}
