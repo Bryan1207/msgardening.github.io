@@ -3,7 +3,11 @@ html, body{
   overflow-x: hidden;
   overflow-y: scroll;
 }
-
+.NavLinkStyle {
+	color: black;
+    font-size: x-large;
+    font-family: serif;
+}
 
 
 /*Navbar styles*/
@@ -64,6 +68,14 @@ html, body{
     margin-left: auto;
     margin-right: auto;
 }
+
+.NavLinkStyle {
+	color: black;
+    font-size: 12px;
+    font-family: serif;
+}
+
+}
  }
 
  @media (min-width:767px) and (max-width: 991px) {
@@ -77,6 +89,10 @@ html, body{
 }
 .nav-links{
 	padding-left: 10%;
+	font-size: 20px;
+}
+.NavLinkStyle {
+	font-size: 20px;
 }
  }
  @media (max-width: 991px) {
@@ -100,6 +116,7 @@ html, body{
 }
 .nav-links{
 	padding-left: none;
+	font-size: 20px;
 }
  }
  @media (min-width: 992px) and (max-width: 1200px) {
@@ -107,14 +124,14 @@ html, body{
 	max-width: 970px;
 }
 .nav-links{
-	padding-left: 20%;
+	padding-left: 11%;
 }
  }
 
 
  @media (min-width: 1200px) {
  .nav-links{
-	padding-left: 20%;
+	padding-left: 11%;
 }
  }
 
@@ -128,3 +145,5 @@ html, body{
    top:340px;  /* your iframe height */
    margin-top:-340px;  /* your iframe height */
 }
+
+
