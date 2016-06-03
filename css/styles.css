@@ -28,7 +28,6 @@ html, body{
 }
 .container{
 	max-width: 980px;
-	padding-left: 0px;
 	padding-right: 0px;
 }
 
@@ -89,7 +88,6 @@ html, body{
 }
 .nav-links{
 	padding-left: 10%;
-	font-size: 20px;
 }
 .NavLinkStyle {
 	font-size: 20px;
